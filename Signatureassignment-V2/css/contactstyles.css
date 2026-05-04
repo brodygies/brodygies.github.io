@@ -1,0 +1,39 @@
+/* Contact page specific styles */
+table {
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+table td {
+    padding: 0.5rem 1rem;
+}
+
+table input {
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 220px;
+}
+
+#Movie {
+    margin: 1rem 0;
+}
+
+button {
+    margin: 0.5rem 0.3rem;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #FFA69E;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #B8F2E6;
+}
+
+#confirmMessage {
+    max-width: 500px;
+    margin: 1rem auto;
+}

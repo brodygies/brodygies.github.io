@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="media/images/favicon_io/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/homestyles.css">
+</head>
+<body>
+
+    <!--header with nav-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="showtime.html">Showtimes</a></li>
+                <li><a href="contact.html">Tickets</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Our Story</h1>
+    <h2>We created this theater for movie lovers who believe some films deserve to be experienced on the big screen more than once.
+        So many great movies come and go too quickly, and we wanted a place where favorites could return and audiences could relive the magic of seeing them in theaters.
+        From cult classics to blockbuster legends, our mission is to bring timeless films back to life and recreate the unforgettable in-theater experience.</h2>
+    <br>
+    <p>To see the movies we are showing navigate to Showtimes, to purchase a ticket navigate to Tickets.</p>
+
+    <!--list-->
+    <h2>Why Visit Us?</h2>
+    <ul>
+        <li>Classic and legendary films back on the big screen</li>
+        <li>Affordable tickets at just $20 per person</li>
+        <li>Optional extras: Popcorn, Drinks, and VIP Seating</li>
+        <li>Showings every Monday, Wednesday, Friday, and Saturday</li>
+    </ul>
+
+    <!--start of form-->
+    <form action="thankyou.html">
+        <div id="innerform">
+            <h1 id="heading">Contact Us</h1>
+            <p>Please let us know if there is anything we can improve, or movies you'd like to see.</p>
+
+            <label>First Name:</label>
+            <input type="text" id="fname">
+            <br>
+            <label>Last Name:</label>
+            <input type="text" id="Lname">
+            <br>
+
+            <p>How did you hear about us?</p>
+            <input type="checkbox" name="source" value="social"> Social Media<br>
+            <input type="checkbox" name="source" value="friend"> A Friend<br>
+            <input type="checkbox" name="source" value="search"> Online Search<br>
+
+            <p>How would you rate your experience?</p>
+            <input type="radio" name="rating" value="excellent"> Excellent<br>
+            <input type="radio" name="rating" value="good"> Good<br>
+            <input type="radio" name="rating" value="average"> Average<br>
+            <input type="radio" name="rating" value="poor"> Poor<br>
+
+            <p>Comments:</p>
+            <textarea rows="4" cols="50" placeholder="please enter your comment"></textarea>
+            <br>
+            <button type="reset" onclick="resetHeading()">Clear</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <footer>
+        <div id="col1">
+            <img src="media/images/social.png" alt="Company's Instagram Link" width="100" height="100">
+            <img src="media/images/social-media.png" alt="Company's TikTok Link" width="100" height="100">
+        </div>
+        <div id="col2">
+            <h3>Business Hours</h3>
+            <p>Monday 12pm-11pm</p>
+            <p>Wednesday 12pm-11pm</p>
+            <p>Friday 12pm-11pm</p>
+            <p>Saturday 12pm-11pm</p>
+        </div>
+    </footer>
+
+    <script src="js/scrpit.js"></script>
+</body>
+</html>

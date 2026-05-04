@@ -1,0 +1,81 @@
+:root {
+    --bgcolor: #FAF3DD;
+    --txtcolor: #5E6472;
+    --secondarycolor: #FFA69E;
+    --thirdcolor: #B8F2E6;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bgcolor);
+    color: var(--txtcolor);
+}
+
+header {
+    background-color: var(--secondarycolor);
+    padding: 1rem;
+    margin: 0;
+}
+
+header nav ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header nav ul li a:visited {
+    text-decoration: none;
+    color: var(--txtcolor);
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: var(--txtcolor);
+    background-color: var(--secondarycolor);
+}
+
+header nav ul li a:active {
+    text-decoration: none;
+    color: var(--txtcolor);
+    background-color: var(--thirdcolor);
+}
+
+footer {
+    background-color: var(--secondarycolor);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: var(--txtcolor);
+}
+
+button {
+    background-color: var(--secondarycolor);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--thirdcolor);
+}
+
+a {
+    color: var(--txtcolor);
+}
